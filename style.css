@@ -32,7 +32,10 @@ header, #intro, #footer {
   width: 300px;
   border-radius: 50%;
   text-align: center;
+}
 
+#Eileen {
+  height: 400px;
 }
 
 /*Addtional styling for about me and contact me sections*/
