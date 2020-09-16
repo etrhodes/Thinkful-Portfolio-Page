@@ -1,0 +1,60 @@
+/*Style the font family and box attribute for the whole site*/
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/*Set the background color of page*/
+body {
+  background-color: #EFEFEF;
+}
+
+/*Background and text color for headings and footer*/
+header, #intro, #footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/*Box size for intro*/
+#intro {
+  margin: 20px;
+  padding: 20px;
+}
+
+/*Sizing and style for pictures*/
+#santa-fe, #Eileen {
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/*Addtional styling for about me and contact me sections*/
+.titles {
+  color: rgb(58, 58, 161);
+  font-family: fantasy, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+/*Link attributes*/
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: purple;
+}
+
+/*Styling for paragraph and div elements*/
+div, p {
+  text-align: center;
+}
+
+/*Styling for unordered and ordered lists*/
+ul, ol {
+  list-style-position: inside;
+}
+
+/*Footer styling*/
+#footer {
+  padding: 20px;
+}
