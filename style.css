@@ -49,10 +49,14 @@ header, #intro, #footer {
 
 /*Link attributes*/
 a:visited {
-  color: blue;
+  color: black;
 }
 a:hover {
-  color: purple;
+  color: rgb(65, 168, 236);
+}
+a {
+  font-size: 20px;
+  color: black;
 }
 
 /*Styling for unordered and ordered lists*/
@@ -63,9 +67,4 @@ ul, ol {
 /*Footer styling*/
 #footer {
   padding: 20px;
-}
-
-p, ul, section {
-  margin-left: 5%;
-  margin-right: 10%;
 }
