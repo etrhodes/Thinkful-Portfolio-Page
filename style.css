@@ -30,13 +30,14 @@ header, #intro, #footer {
 /*Sizing and style for pictures*/
 #santa-fe, #Eileen {
   width: 300px;
-  border-radius: 50%;
   text-align: center;
 }
 
 #Eileen {
   height: 400px;
+  border-radius: 50%;
 }
+
 
 /*Addtional styling for about me and contact me sections*/
 .titles {
