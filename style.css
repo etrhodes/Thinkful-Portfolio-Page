@@ -1,17 +1,48 @@
+/*Import Google font for page*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://fonts.google.com/specimen/Montserrat+Alternates?query=montserrat&selection.family=Courgette|Montserrat+Alternates');
+
+@media all and (min-width: 800px) {
+  .group {
+    flex-direction: row;
+  }
+}
+
+header .head-intro::before {    
+      content: "";
+      background-image: url(images/coding.png);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+}
+
+
+.group, .item {
+  display: flex;
+  flex: 1;
+  margin: 20px;
+}
+
+.item, .double {
+  flex: 2;
+}
+
 /*Style the font family and box attribute for the whole site*/
-* {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-sizing: border-box;
+
+
+#intro, header {
+  background-image: url(images/coding.png);
 }
 
 /*Set the background color of page*/
 body {
   background-color: #EFEFEF;
-}
-
-
-#introduction {
-  text-align: center;
+  font-family: 'Montserrat Alternates';
 }
 
 /*Background and text color for headings and footer*/
@@ -19,6 +50,13 @@ header, #intro, #footer {
   background-color: black;
   color: white;
   text-align: center;
+  font-family: 'Courgette';
+  padding: 10px;
+}
+
+#profile-picture  {
+  text-align: center;
+  margin: 20px;
 }
 
 /*Box size for intro*/
@@ -30,19 +68,17 @@ header, #intro, #footer {
 /*Sizing and style for pictures*/
 #santa-fe, #Eileen {
   width: 300px;
-  text-align: center;
 }
 
 #Eileen {
-  height: 400px;
-  border-radius: 50%;
+  border-radius: 80%;
 }
 
 
 /*Addtional styling for about me and contact me sections*/
 .titles {
   color: rgb(58, 58, 161);
-  font-family: fantasy, Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat-Alternates';
   font-size: 30px;
   text-align: center;
 }
@@ -66,5 +102,6 @@ ul, ol {
 
 /*Footer styling*/
 #footer {
+  margin: 5px;
   padding: 20px;
 }
