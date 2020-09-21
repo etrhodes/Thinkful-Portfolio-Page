@@ -8,16 +8,15 @@
     flex-direction: row;
   }
 }
-
-.group {
+.group{
   display: flex;
-  flex-direction: column;
-  margin-bottom: 100px;
+  flex: 1;
+  margin: 20px;
 }
 
 .item {
-  margin: 10px;
   flex: 1;
+  margin: 10px;
 }
 
 .double {
@@ -64,6 +63,10 @@ header, #intro, #footer {
 
 #Eileen {
   border-radius: 80%;
+}
+
+img {
+  width: 100%;
 }
 
 
