@@ -9,26 +9,18 @@
   }
 }
 
-header .head-intro::before {    
-      content: "";
-      background-image: url(images/coding.png);
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.3;
-}
-
-
-.group, .item {
+.group {
   display: flex;
-  flex: 1;
-  margin: 20px;
+  flex-direction: column;
+  margin-bottom: 100px;
 }
 
-.item, .double {
+.item {
+  margin: 10px;
+  flex: 1;
+}
+
+.double {
   flex: 2;
 }
 
