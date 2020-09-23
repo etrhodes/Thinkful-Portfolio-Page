@@ -13,12 +13,14 @@ header nav {
 .group {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 20px;
+  padding: 0 10px;
 }
 
 .item {
   flex: 1;
-  margin: 10px;
+  margin: 20px;
+  padding: 0 10px;
 }
 
 item-double {
@@ -53,14 +55,22 @@ header nav ul li:last-child a {
   .group {
     flex-direction: row;
   }
+
+  header nav {
+    justify-content: left;
+  }
 }
 
 #intro, header {
   background-image: url(images/coding.png);
 }
 
+#profile-image {
+  width: 400px;
+}
 /*Set the background color of page*/
 body {
+  margin: 0;
   background-color: #EFEFEF;
   font-family: 'Montserrat Alternates';
 }
@@ -71,26 +81,11 @@ header, #intro, #footer {
   color: white;
   text-align: center;
   font-family: 'Courgette';
-  padding: 10px;
-}
-
-#profile-picture  {
-  text-align: center;
-  margin: 20px;
-}
-
-/*Styling for intro*/
-#intro {
   margin: 20px;
   padding: 20px;
 }
 
 /*Sizing and style for pictures*/
-#Eileen {
-  width: 300px;
-  border-radius: 60%
-}
-
 img {
   width: 100%;
 }
@@ -99,7 +94,7 @@ img {
 /*Addtional styling for about me and contact me sections*/
 .titles {
   color: rgb(58, 58, 161);
-  font-family: 'Montserrat-Alternates';
+  font-family: Courgette;
   font-size: 30px;
   text-align: center;
 }
@@ -143,11 +138,10 @@ form {
 form label {
   display: block;
   font-size: 16px;
-  font-family: Montserrat;
-
+  font-family: "Montserrat-Alternates";
 }
 
 form input[type=text] {
   font-size: 20px;
-  font-family: Montserrat;
+  font-family: "Montserrat-Alternates";
 }
