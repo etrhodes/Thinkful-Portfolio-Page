@@ -28,6 +28,13 @@
       <div id='head-intro'>
         <h1>Eileen Rhodes</h1>
         <h2>Software Engineer</h2>
+        <nav id='menu' class='group'>
+          <ul>
+            <li><a href="#eileen-into">Intro</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+          </ul>
       </div>
     </header>
   </section>
@@ -44,11 +51,11 @@
     </div>
   </section>
 
-  <section> 
+  <section id="about-me"> 
     <div>
     <div class='group'> 
       <div class='item'>
-        <img class='double' id="santa-fe" alt="santa-fe-nm" src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/12/Santa-Fe-aerial-shot-1200x900.jpg">
+        <img class='item-double' id="santa-fe" alt="santa-fe-nm" src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/12/Santa-Fe-aerial-shot-1200x900.jpg">
       </div>
       <div class='item'>
         <p>I am a software engineer living in the beautiful town of Santa Fe, NM.
@@ -60,7 +67,7 @@
 
   <hr>
 
-  <section>
+  <section id='experience'>
     <div>
       <p>Currently, I am in the Software Engineering Flex program at Thinkful. As an engineer, I am excited about creating websites that:
         <ul>
@@ -88,9 +95,10 @@
 
   <!--Insert horizontal line-->
   <hr>
-  <article class='group'>
-    <h2>Portfolio<h2>
-      <div>
+  
+  <h2 id='portfolio'>Portfolio<h2>
+  <article>    
+    <div class='group'>
       <div class='item'>
         <img src='images/screenshotimage.png'>
         <h4>Coming Soon</h4>
@@ -104,8 +112,8 @@
     </div>  
   </article>
 
-  <!-- New div for Contact Me section-->
-  <section>
+<!-- New div for Contact Me section-->
+  <section id='contact-me'>
     <div>
       <h3 class="titles">Contact Me</h3>
         <h4>Have a project for a new developer? Want to collaborate? I would love to hear from you!</h4>
@@ -113,9 +121,33 @@
           <li><a href="https://www.linkedin.com/in/eileenrhodes/" target="_blank">Linked In</a></li>
           <li><a href="https://github.com/etrhodes" target="_blank">Github</a></li>
         </ol>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51852.48417769508!2d-106.01806391753608!3d35.682412264407844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87185043e79852a9%3A0x8c902373fd88df40!2sSanta%20Fe%2C%20NM!5e0!3m2!1sen!2sus!4v1600461524412!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      </div>
-    </section>
+
+<section>
+  <h2>Send Me An Email</h2>
+  <div class='group'>
+    <div class='item-double'>
+      <form action='https://formspree.io/etrhodes619@gmail.com' method='post'>
+  
+        <label for='name'>Name</label>
+        <input type='text' id='name' name='name' required minlength="4">
+
+        <label for='email'>Email</label>
+        <input type='email' id='email' name='email' required>
+
+        <label for='phone'>Phone</label>
+        <input type='tel' id='phone' name='phone' required>
+
+        <button type='submit'>Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<article>
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51852.48417769508!2d-106.01806391753608!3d35.682412264407844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87185043e79852a9%3A0x8c902373fd88df40!2sSanta%20Fe%2C%20NM!5e0!3m2!1sen!2sus!4v1600461524412!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+</article>
 
     <!--Footer Section-->
     <div>

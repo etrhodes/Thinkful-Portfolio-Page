@@ -3,15 +3,18 @@
 
 @import url('https://fonts.google.com/specimen/Montserrat+Alternates?query=montserrat&selection.family=Courgette|Montserrat+Alternates');
 
-@media all and (min-width: 800px) {
-  .group {
-    flex-direction: row;
+/*Mobile friendly first*/
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
   }
 }
-.group{
+
+.group {
   display: flex;
-  flex: 1;
-  margin: 20px;
+  flex-direction: column;
+  margin: 10px;
 }
 
 .item {
@@ -19,12 +22,39 @@
   margin: 10px;
 }
 
-.double {
+item-double {
   flex: 2;
 }
 
-/*Style the font family and box attribute for the whole site*/
+header nav {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
 
+header nav ul {
+  display: flex;
+  padding-left: 10px;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+@media all and (min-width: 800px) {
+  .group {
+    flex-direction: row;
+  }
+
+}
 
 #intro, header {
   background-image: url(images/coding.png);
@@ -79,9 +109,7 @@ img {
 }
 
 /*Link attributes*/
-a:visited {
-  color: black;
-}
+
 a:hover {
   color: rgb(65, 168, 236);
 }
@@ -99,4 +127,15 @@ ul, ol {
 #footer {
   margin: 5px;
   padding: 20px;
+}
+
+/*Form Styling*/
+form input,
+form textarea {
+  width: 100%;
+  margin: 20px;
+}
+
+form textarea {
+  height: 120px;
 }
