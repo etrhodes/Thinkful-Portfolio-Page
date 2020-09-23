@@ -4,12 +4,11 @@
 @import url('https://fonts.google.com/specimen/Montserrat+Alternates?query=montserrat&selection.family=Courgette|Montserrat+Alternates');
 
 /*Mobile friendly first*/
-  header nav {
+header nav {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
   }
-}
 
 .group {
   display: flex;
@@ -24,6 +23,7 @@
 
 item-double {
   flex: 2;
+  margin: 10px;
 }
 
 header nav {
@@ -53,7 +53,6 @@ header nav ul li:last-child a {
   .group {
     flex-direction: row;
   }
-
 }
 
 #intro, header {
@@ -80,19 +79,16 @@ header, #intro, #footer {
   margin: 20px;
 }
 
-/*Box size for intro*/
+/*Styling for intro*/
 #intro {
   margin: 20px;
   padding: 20px;
 }
 
 /*Sizing and style for pictures*/
-#santa-fe, #Eileen {
-  width: 300px;
-}
-
 #Eileen {
-  border-radius: 80%;
+  width: 300px;
+  border-radius: 60%
 }
 
 img {
@@ -138,4 +134,20 @@ form textarea {
 
 form textarea {
   height: 120px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  font-family: Montserrat;
+
+}
+
+form input[type=text] {
+  font-size: 20px;
+  font-family: Montserrat;
 }
