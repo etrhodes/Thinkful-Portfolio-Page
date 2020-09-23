@@ -13,13 +13,13 @@ header nav {
 .group {
   display: flex;
   flex-direction: column;
-  margin: 20px;
-  padding: 0 10px;
+  margin: 10px;
+  padding: 0 5px;
 }
 
 .item {
   flex: 1;
-  margin: 20px;
+  margin: 10px;
   padding: 0 10px;
 }
 
@@ -51,6 +51,7 @@ header nav ul li:last-child a {
   margin-right: 0;
 }
 
+/*Desktop screen size*/
 @media all and (min-width: 800px) {
   .group {
     flex-direction: row;
@@ -61,13 +62,16 @@ header nav ul li:last-child a {
   }
 }
 
-#intro, header {
+/*Header background image*/
+header {
   background-image: url(images/coding.png);
 }
 
+/*Sizing for profile image*/
 #profile-image {
   width: 400px;
 }
+
 /*Set the background color of page*/
 body {
   margin: 0;
@@ -97,6 +101,13 @@ img {
   font-family: Courgette;
   font-size: 30px;
   text-align: center;
+}
+
+.color-bg {
+   background-color: #b3b0ab;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 40px 0;
 }
 
 /*Link attributes*/
