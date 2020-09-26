@@ -60,6 +60,10 @@ header nav ul li:last-child a {
   header nav {
     justify-content: left;
   }
+
+  #profile-image {
+    width: 100%;
+  }
 }
 
 /*Header background image*/
@@ -69,7 +73,7 @@ header {
 
 /*Sizing for profile image*/
 #profile-image {
-  width: 400px;
+  width: 100%;
 }
 
 /*Set the background color of page*/
@@ -150,4 +154,8 @@ form label {
 form input[type=text] {
   font-size: 20px;
   font-family: "Montserrat-Alternates";
+}
+
+#map {
+  display: flex;
 }
