@@ -64,6 +64,7 @@ header nav ul li:last-child a {
   #profile-image {
     width: 100%;
   }
+
 }
 
 /*Header background image*/
@@ -157,5 +158,5 @@ form input[type=text] {
 }
 
 #map {
-  display: flex;
+  width: 100%;
 }
